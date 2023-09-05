@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  height: 100%;
+  background-color: rgb(182, 182, 182);
+}
+.atary {
+  background-image: url("atary.webp");
+  background-size: cover;
+  width: 400px;
+  height: 600px;
+  position: relative;
+}
+canvas {
+  background-color: rgb(34, 34, 34);
+  position: absolute;
+  width: 300px;
+  left: 52px;
+  top: 32px;
+}
+.hidden-btn {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  opacity: 0;
+}
+.hidden-arrow {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  opacity: 0;
+}
+#hard {
+  right: 34px;
+  bottom: 145px;
+}
+#medium {
+  right: 80px;
+  bottom: 80px;
+}
+#easy {
+  bottom: 118px;
+  right: 130px;
+}
+#reset {
+  bottom: 182px;
+  right: 84px;
+}
+
+#up {
+  left: 90px;
+  bottom: 175px;
+}
+#left {
+  bottom: 140px;
+  left: 50px;
+}
+#down {
+  left: 90px;
+  bottom: 100px;
+}
+#right {
+  bottom: 140px;
+  left: 130px;
+}
